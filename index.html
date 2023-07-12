@@ -3,25 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- css file -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- bootstrapp -->
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.css"
     />
-    <title>Tasodifiy Sonlar Generatori</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Random Number Generator</title>
   </head>
   <body>
     <div class="container p-4 mt-4">
       <div class="row align-items-center">
-        <div class="col text-center">
+        <div class="col-12 text-center">
           <h3>HTML & CSS & JS</h3>
-          <h1>Tasodifiy sonlar genaratori</h1>
+          <h1>Генератор случайных чисел</h1>
         </div>
-        <div class="col">
+        <div class="col-12">
           <div class="row">
             <div class="col">
-              <label for="min" class="form-label">Min</label>
+              <label for="min" class="form-label">Мин.</label>
               <input type="number" class="form-control" id="min" />
             </div>
             <div class="col">
@@ -35,13 +36,14 @@
               type="button"
               id="generator"
             >
-              Ishga Tushurish
+              Запуск
             </button>
           </div>
-          <h1 class="mt-3 text-center" id="placeholder"></h1>
+          <h1 class="mt-3 text-center" id="placeholder">От 1 до ∞</h1>
         </div>
       </div>
     </div>
+
     <!-- js file -->
     <script src="./js/index.js"></script>
   </body>
